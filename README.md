@@ -26,3 +26,9 @@ The goal of this site is to present who I am, showcase my projects, and reflect 
 - [React](https://reactjs.org/)
 - Plain CSS (custom styles written from scratch)
 - [Vercel](https://vercel.com/) for deployment
+
+---
+
+## 🪪 License
+
+This project is open-source and available under the MIT License.
