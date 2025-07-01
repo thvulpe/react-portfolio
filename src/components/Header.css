@@ -48,3 +48,11 @@
         background-position: 0% 0%;
     }
 }
+
+.header p {
+    font-size: 20px;
+}
+
+.header span {
+    font-weight: bold;
+}
