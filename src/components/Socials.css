@@ -1,0 +1,41 @@
+.socials {
+    border-top: 5px solid #121212;
+    color: #121212;
+    text-align: center;
+}
+
+.icons {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    text-align: center;
+    margin-top: -30px;
+    justify-content: center;
+    padding: 50px;
+    background-color: #F1F5F9;
+}
+
+.icons img {
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.icons img {
+    height: 60px;
+}
+
+.socials h2 {
+    border-top: 5px solid #121212;
+    margin-top: -40px;
+    background-color: #F1F5F9;
+    width: 300px;
+    margin: auto;
+    margin-top: -30px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
