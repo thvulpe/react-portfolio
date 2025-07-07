@@ -1,14 +1,14 @@
 import './App.css';
-import Header from './components/Header';
-import Socials from './components/Socials';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Socials from './components/Socials/Socials';
+import Footer from './components/Footer/Footer';
 import { Analytics } from "@vercel/analytics/react"
-import Living from './components/Living';
-import Education from './components/Education';
-import CarouselGallery from './components/CarouselGallery';
-import WavyTitle from './components/WavyTitle';
-import Robotics from './components/Robotics';
-import Technologies from './components/Technologies';
+import Living from './components/Living/Living';
+import Education from './components/Education/Education';
+import CarouselGallery from './components/CarouselGallery/CarouselGallery';
+import WavyTitle from './components/WavyTitle/WavyTitle';
+import Robotics from './components/Robotics/Robotics';
+import Technologies from './components/Technologies/Technologies';
 
 function App() {
   return (

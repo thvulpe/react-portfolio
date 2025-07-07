@@ -19,7 +19,6 @@ const Robotics = () => {
                 <span>{" "}(2020 - 2022)</span>
             </p>
 
-            // Awards
             <p className='award'>
                 🥉 3rd place - Bucharest National Phase 2021 🇷🇴
             </p>
@@ -44,7 +43,6 @@ const Robotics = () => {
                 <span>{" "}(2022)</span>
             </p>
 
-            // Awards
             <p className='award'>
                 🏆 25th place out of 180+ international teams - First Global
                 {" "}Challenge 2022, Geneva - Switzerland 🇨🇭

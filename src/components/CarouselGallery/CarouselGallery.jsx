@@ -3,16 +3,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./CarouselGallery.css";
 
-import pic1 from "../assets/images/gallery/pic1.jpg";
-import pic2 from "../assets/images/gallery/pic2.jpg";
-import pic3 from "../assets/images/gallery/pic3.jpg";
-import pic4 from "../assets/images/gallery/pic4.jpg";
-import pic5 from "../assets/images/gallery/pic5.jpg";
-import pic6 from "../assets/images/gallery/pic6.jpg";
-import pic7 from "../assets/images/gallery/pic7.jpg";
-import pic8 from "../assets/images/gallery/pic8.jpg";
-import pic9 from "../assets/images/gallery/pic9.jpg";
-import pic10 from "../assets/images/gallery/pic10.jpg";
+import pic1 from "../../assets/images/gallery/pic1.jpg";
+import pic2 from "../../assets/images/gallery/pic2.jpg";
+import pic3 from "../../assets/images/gallery/pic3.jpg";
+import pic4 from "../../assets/images/gallery/pic4.jpg";
+import pic5 from "../../assets/images/gallery/pic5.jpg";
+import pic6 from "../../assets/images/gallery/pic6.jpg";
+import pic7 from "../../assets/images/gallery/pic7.jpg";
+import pic8 from "../../assets/images/gallery/pic8.jpg";
+import pic9 from "../../assets/images/gallery/pic9.jpg";
+import pic10 from "../../assets/images/gallery/pic10.jpg";
 
 const images = [
     pic1,

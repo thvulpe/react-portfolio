@@ -1,5 +1,5 @@
-import GraduateIcon from '../assets/icons/graduate.svg';
-import LaptopIcon from '../assets/icons/laptop.svg';
+import GraduateIcon from '../../assets/icons/graduate.svg';
+import LaptopIcon from '../../assets/icons/laptop.svg';
 import './Education.css';
 
 const Education = () => {

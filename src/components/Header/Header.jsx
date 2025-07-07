@@ -1,5 +1,5 @@
 import './Header.css';
-import MyFace from '../assets/images/face.jpg';
+import MyFace from '../../assets/images/face.jpg';
 import { useEffect, useState } from 'react';
 
 const FormatUniYear = (currentDate) => {

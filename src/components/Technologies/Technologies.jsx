@@ -1,13 +1,13 @@
 import './Technologies.css';
-import CLogo from '../assets/icons/technologies/c.svg';
-import CssLogo from '../assets/icons/technologies/css.svg';
-import GitLogo from '../assets/icons/technologies/git.svg';
-import ReactLogo from '../assets/icons/technologies/react.svg';
-import JsLogo from '../assets/icons/technologies/js.svg';
-import SpringBootLogo from '../assets/icons/technologies/spring-boot.svg';
-import HtmlLogo from '../assets/icons/technologies/html.svg';
-import JavaLogo from '../assets/icons/technologies/java.svg';
-import LinuxLogo from '../assets/icons/technologies/linux.svg';
+import CLogo from '../../assets/icons/technologies/c.svg';
+import CssLogo from '../../assets/icons/technologies/css.svg';
+import GitLogo from '../../assets/icons/technologies/git.svg';
+import ReactLogo from '../../assets/icons/technologies/react.svg';
+import JsLogo from '../../assets/icons/technologies/js.svg';
+import SpringBootLogo from '../../assets/icons/technologies/spring-boot.svg';
+import HtmlLogo from '../../assets/icons/technologies/html.svg';
+import JavaLogo from '../../assets/icons/technologies/java.svg';
+import LinuxLogo from '../../assets/icons/technologies/linux.svg';
 
 const Technologies = () => {
     const icons = [

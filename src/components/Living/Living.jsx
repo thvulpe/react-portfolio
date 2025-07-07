@@ -1,4 +1,4 @@
-import LocationIcon from '../assets/icons/location.svg';
+import LocationIcon from '../../assets/icons/location.svg';
 import './Living.css';
 
 const Living = () => {
