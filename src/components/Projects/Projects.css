@@ -1,8 +1,7 @@
 .projects {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-    padding: 5rem;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 2rem;
 }

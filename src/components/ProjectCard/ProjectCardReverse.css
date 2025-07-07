@@ -1,0 +1,77 @@
+.project-card-reverse {
+    background-color: #6366F1;
+    width: 60%;
+    border-radius: 20px 0px 0px 20px;
+    color: #F1F5F9;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 22rem;
+
+    display: flex;
+    flex-direction: row-reverse;
+    /* AICI e cheia pentru reverse layout */
+    gap: 5rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.project-card-info-reverse {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    max-width: 18rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project-card-reverse:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card-thumbnail-reverse {
+    margin-left: 3rem;
+    margin-right: auto;
+}
+
+.project-card-reverse span {
+    font-weight: bold;
+}
+
+.project-card-reverse p {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .project-card-reverse {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+        width: 75%;
+    }
+
+    .project-card-info-reverse {
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-thumbnail-reverse {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .project-preview {
+        width: 13rem;
+        height: 10rem;
+    }
+}

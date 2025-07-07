@@ -7,6 +7,9 @@
     cursor: pointer;
 
     transition: transform 0.2s ease;
+
+    border: solid 5px #F1F5F9;
+    border-radius: 20px;
 }
 
 .project-preview img {
@@ -57,4 +60,19 @@
 .project-preview p {
     user-select: none;
     pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .project-preview {
+        width: 13rem;
+        height: 10rem;
+    }
+
+    .thumbnail-overlay .name {
+        font-size: 0.9rem;
+    }
+    
+    .thumbnail-overlay .info {
+        font-size: 0.75rem;
+    }
 }

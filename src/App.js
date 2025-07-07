@@ -11,7 +11,16 @@ import Robotics from './components/Robotics/Robotics';
 import Technologies from './components/Technologies/Technologies';
 import Projects from './components/Projects/Projects';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import { useEffect } from 'react';
+
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <>
       <div className="App">

@@ -24,6 +24,7 @@ const Technologies = () => {
 
     return (
         <div className='technologies'>
+            <p>TECHNOLOGIES</p>
             <div className='tech-icons'>
                 {icons.map((icon, index) => {
                     return (
