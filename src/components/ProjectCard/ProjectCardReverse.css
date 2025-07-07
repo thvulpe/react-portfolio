@@ -22,14 +22,9 @@
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
-    max-width: 18rem;
+    max-width: 25rem;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.project-card-reverse:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
 }
 
 .card-thumbnail-reverse {
