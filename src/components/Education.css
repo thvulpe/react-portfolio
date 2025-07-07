@@ -1,12 +1,12 @@
 .graduate-card img {
-    height: 60px;
+    height: 3.75rem;
 }
 
 .education {
     height: 40vh;
     background-color: #3438ED;
     display: flex;
-    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0.625rem 0.25rem 1.875rem rgba(0, 0, 0, 0.2);
 }
 
 .graduate-card {
@@ -14,15 +14,16 @@
     flex-direction: column;
     align-items: center;
     color: #F1F5F9;
+    text-align: center;
 }
 
 .graduate-card p {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
-.graduate-card span{
+.graduate-card span {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .cards {
@@ -31,5 +32,45 @@
     justify-content: center;
     margin: auto;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
+}
+
+@media (max-width: 768px) {
+    .graduate-card img {
+        height: 3.75rem;
+    }
+    
+    .education {
+        padding: 1rem;
+        height: auto;
+        background-color: #3438ED;
+        display: flex;
+        box-shadow: 0.625rem 0.25rem 1.875rem rgba(0, 0, 0, 0.2);
+    }
+    
+    .graduate-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #F1F5F9;
+        text-align: center;
+    }
+    
+    .graduate-card p {
+        font-size: 0.9rem;
+    }
+    
+    .graduate-card span {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        gap: 1.125rem;
+    }
 }

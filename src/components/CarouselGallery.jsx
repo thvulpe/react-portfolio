@@ -15,13 +15,13 @@ import pic9 from "../assets/images/gallery/pic9.jpg";
 import pic10 from "../assets/images/gallery/pic10.jpg";
 
 const images = [
-    pic1, 
-    pic2, 
-    pic3, 
-    pic4, 
-    pic5, 
-    pic6, 
-    pic7, 
+    pic1,
+    pic2,
+    pic3,
+    pic4,
+    pic5,
+    pic6,
+    pic7,
     pic8,
     pic9,
     pic10
@@ -33,6 +33,15 @@ const CarouselGallery = () => {
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+        ],
     };
 
     return (

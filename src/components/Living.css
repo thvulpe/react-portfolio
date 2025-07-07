@@ -30,3 +30,34 @@
 .location-card span {
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .living {
+        height: 30vh;
+        background-color: #6366F1;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        padding-bottom: 80px;
+        box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .location-card img {
+        height: 30px;
+        margin-left: 10vw;
+    }
+    
+    .location-card p {
+        font-size: 15px;
+        color: #F1F5F9
+    }
+
+    .location-card {
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        align-items: center;
+        margin-left: 1vw;
+        margin-top: 5px;
+    }
+}

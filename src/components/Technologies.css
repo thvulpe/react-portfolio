@@ -1,17 +1,17 @@
 .technologies {
     background-color: #3438ED;
-    padding: 30px;
-    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
+    padding: 1.875rem;
+    box-shadow: 0.625rem 0.25rem 1.875rem rgba(0, 0, 0, 0.2);
+    margin-top: 1.25rem;
 }
 
 .tech-icons {
     background: transparent;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     place-items: center;
-    gap: 30px;
-    max-width: 800px;
+    gap: 1.875rem;
+    max-width: 50rem;
     margin: 0 auto;
 }
 
@@ -22,16 +22,37 @@
 }
 
 .tech-icons img {
-    height: 70px;
-    background-color: transparent;
-    border-radius: 8px;
-    object-fit: contain;
-    padding: 5px;
+    height: 4.375rem;
     background-color: white;
+    border-radius: 0.5rem;
+    object-fit: contain;
+    padding: 0.3125rem;
 
     transition: transform 0.1s ease;
 }
 
 .tech-icons img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .tech-icons img {
+        height: 3rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        object-fit: contain;
+        padding: 0.3125rem;
+    
+        transition: transform 0.1s ease;
+    }
+
+    .tech-icons {
+        background: transparent;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+        place-items: center;
+        gap: 1rem;
+        max-width: 50rem;
+        margin: 0 auto;
+    }
 }

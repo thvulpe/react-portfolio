@@ -1,19 +1,23 @@
 .slick-slide>div {
-    padding: 0 10px;
+    padding: 0 0.625rem;
     box-sizing: border-box;
 }
 
 .custom-slide img {
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
+
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
 }
 
 .banner-text {
-    font-size: 100px;
+    font-size: 6.25rem;
     text-align: center;
 }
 
 .gallery {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
