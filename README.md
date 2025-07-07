@@ -18,6 +18,7 @@ The goal of this site is to present who I am, showcase my projects, and reflect 
 - Automatically updates my current Uni year in real-time
 - Info on social media and studies
 - Interactive elements
+- Responsive layout
 
 ---
 
