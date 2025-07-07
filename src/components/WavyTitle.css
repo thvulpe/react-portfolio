@@ -1,0 +1,39 @@
+.wavy-title {
+    text-align: center;
+}
+
+.wavy-title p {
+    position: relative;
+    font-size: 100px;
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+    z-index: 2;
+
+    background: linear-gradient(270deg,
+            #6366f1,
+            #8b5cf6,
+            #c084fc,
+            #6366f1);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 4s ease infinite;
+    padding: 10px;
+    border: dashed 5px #6366f1;
+    margin: 30px;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -6,7 +6,7 @@ const Socials = () => {
     return (
         <div className="socials">
             <h2>SOCIALS</h2>
-            <div className="icons">
+            <div className="social-icons">
                 <a href="https://github.com/thvulpe"
                     target="_blank"
                     rel="noopener noreferrer">

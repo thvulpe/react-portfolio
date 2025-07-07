@@ -1,0 +1,19 @@
+.slick-slide>div {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.custom-slide img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.banner-text {
+    font-size: 100px;
+    text-align: center;
+}
+
+.gallery {
+    margin-bottom: 50px;
+}

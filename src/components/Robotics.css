@@ -1,0 +1,48 @@
+.robotics {
+    text-align: center;
+}
+
+.robotics p {
+    padding-top: 10px;
+    margin: auto;
+}
+
+.award {
+    padding-bottom: 10px;
+    color: #121212;
+    font-style: italic;
+}
+
+.ftc {
+    font-size: 22px;
+    color: #6366f1;
+}
+
+.fgc {
+    font-size: 20px;
+    color: #6366f1;
+}
+
+.robotics span {
+    font-size: 20px;
+}
+
+.purple-line {
+    border: none;
+    height: 2px;
+    background-color: #6366F1;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.robotics a {
+    text-decoration: none;
+    font-style: italic;
+    display: inline-block;
+    transition: transform 0.1s ease;
+}
+
+.robotics a:hover {
+    transform: scale(1.03);
+}
