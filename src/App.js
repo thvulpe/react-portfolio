@@ -9,6 +9,7 @@ import CarouselGallery from './components/CarouselGallery/CarouselGallery';
 import WavyTitle from './components/WavyTitle/WavyTitle';
 import Robotics from './components/Robotics/Robotics';
 import Technologies from './components/Technologies/Technologies';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Robotics />
         <WavyTitle text="Gallery" />
         <CarouselGallery />
-        <WavyTitle text="Technologies " />
+        <WavyTitle text="Projects" />
+        <Projects />
         <Technologies />
         <Footer />
       </div>
