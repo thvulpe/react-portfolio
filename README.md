@@ -9,7 +9,7 @@ The goal of this site is to present who I am, showcase my projects, and reflect 
 
 ## 🔗 Live Demo
 
-[**react-portfolio-theodor-vulpe.vercel.app**](https://react-portfolio-theodor-vulpe.vercel.app)
+[**Theodor Vulpe - Portfolio**](https://theodor-vulpe.ro)
 
 ---
 
