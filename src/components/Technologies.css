@@ -23,7 +23,7 @@
 
 .tech-icons img {
     height: 4.375rem;
-    background-color: white;
+    background-color: rgb(11, 2, 94);
     border-radius: 0.5rem;
     object-fit: contain;
     padding: 0.3125rem;
@@ -38,7 +38,6 @@
 @media (max-width: 768px) {
     .tech-icons img {
         height: 3rem;
-        background-color: white;
         border-radius: 0.5rem;
         object-fit: contain;
         padding: 0.3125rem;
