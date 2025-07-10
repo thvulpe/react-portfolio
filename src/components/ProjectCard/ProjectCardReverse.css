@@ -1,6 +1,6 @@
 .project-card-reverse {
     background-color: #6366F1;
-    width: 60%;
+    width: fit-content;
     border-radius: 20px 0px 0px 20px;
     color: #F1F5F9;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);

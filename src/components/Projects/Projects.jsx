@@ -25,6 +25,7 @@ const Projects = () => {
                     thumbnail={SpendingImage}
                     name="Spending Tracker"
                     info="Work In Progress"
+                    link="https://spending-tracker-green.vercel.app"
                 />}
                 description={"A simple React app to manage your expenses. " +
                     "You can add, delete, and filter transactions, and view a " +
